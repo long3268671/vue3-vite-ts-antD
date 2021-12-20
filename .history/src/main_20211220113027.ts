@@ -13,6 +13,5 @@ console.log(import.meta.env.VITE_APP_TITLE);
 app.use(router)
 app.use(store, key)
 useAntd(app)
-
 app.mount('#app')
 
